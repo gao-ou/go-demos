@@ -1,0 +1,29 @@
+相册接口
+列表
+- 返回一个相册列表
+    - 名称
+    - 封面
+    - 数量
+返回json数据
+[{"id":1,"name":"最近项目","cover_picture":"http://photo.com/abc.jpg","count":1558},
+{"id":2,"name":"个人收藏","cover_picture":"http://photo.com/abcd.jpg","count":2}]
+
+- 创建相册
+    - 名称
+{"name":"123"}
+- 编辑相册
+    - 名称
+id
+{"name":"123"}
+- 删除相册
+id
+
+图片接口
+photo_album_id
+- 图片列表
+[{"id":1,"name":"高讴笑.jpg","picture_url":"http://photo.com/abcd.jpg"},
+{"id":2,"name":"陈狗苦.jpg","picture_url":"http://photo.com/abcdf.jpg"}
+]
+- 上传
+- 删除
+id

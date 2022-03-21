@@ -1,0 +1,22 @@
+相册需求
+- 相册
+    - 封面图
+    - 相册名称
+    - 相册图片数量
+- 图片列表
+    - 图片
+    - 图片名称
+    - 可以删除
+
+ 表结构设计
+- 相册表 photo_album
+    - id
+    - cover_picture 封面
+    - album_name 名称
+    - count 数量
+
+- 图片列表 pictures/ images
+- id 图片id
+- photo_album_id 相册表id 管理相册表
+- picture_url 图片
+- name 图片名称
